@@ -4,46 +4,46 @@
 
 ## Icindekiler
 
-1. [Terminology](#terminology)
-    - [Rule Declaration](#rule-declaration)
-    - [Selectors](#selectors)
-    - [Properties](#properties)
+1. [Terminoloji](#terminology)
+    - [Kural Tanimlamari](#rule-declaration)
+    - [Seciciler](#selectors)
+    - [Ozellikler](#properties)
 1. [CSS](#css)
-    - [Formatting](#formatting)
-    - [Comments](#comments)
-    - [OOCSS and BEM](#oocss-and-bem)
-    - [ID Selectors](#id-selectors)
-    - [JavaScript hooks](#javascript-hooks)
-    - [Border](#border)
+    - [Formatlama](#formatting)
+    - [Yorumlar](#comments)
+    - [OOCSS ve BEM](#oocss-and-bem)
+    - [ID Secicileri](#id-selectors)
+    - [JavaScript kancalari](#javascript-hooks)
+    - [Cizgiler](#border)
 1. [Sass](#sass)
-    - [Syntax](#syntax)
-    - [Ordering](#ordering-of-property-declarations)
-    - [Variables](#variables)
-    - [Mixins](#mixins)
-    - [Extend directive](#extend-directive)
-    - [Nested selectors](#nested-selectors)
-1. [Translation](#translation)
-1. [License](#license)
+    - [Yazim bicimi](#syntax)
+    - [Siralama](#ordering-of-property-declarations)
+    - [Degiskenler](#variables)
+    - [Mixin'ler](#mixins)
+    - [Extend direktifi](#extend-directive)
+    - [Alt seciciler](#nested-selectors)
+1. [Ceviri](#translation)
+1. [Lisans](#license)
 
-## Terminology
+## Terminoloji
 
-### Rule declaration
+### Kural tanimlamalari
 
-A “rule declaration” is the name given to a selector (or a group of selectors) with an accompanying group of properties. Here's an example:
+“Kural tanimi” dedigimiz, bir stil sinifina verdigimiz isim ve altindaki css ozelligi tanimlamaridir. Ornek: 
 
 ```css
-.listing {
+.liste {
   font-size: 18px;
   line-height: 1.2;
 }
 ```
 
-### Selectors
+### Seciciler
 
-In a rule declaration, “selectors” are the bits that determine which elements in the DOM tree will be styled by the defined properties. Selectors can match HTML elements, as well as an element's class, ID, or any of its attributes. Here are some examples of selectors:
+Bir kural taniminda, seciciler, html'de DOM agacinda hangi elemanlarin bu siniftaki stillemeye sahip olacagini belirlememizi saglar. Seciciler html elemanlarina, o elemanin sinif degerine, ID tanimina veya herhangi bir html etiket alt tanimlamasina uygun olabilir. Ornegin: 
 
 ```css
-.my-element-class {
+.benim-sinifim {
   /* ... */
 }
 
@@ -52,18 +52,18 @@ In a rule declaration, “selectors” are the bits that determine which element
 }
 ```
 
-### Properties
+### Ozellikler
 
-Finally, properties are what give the selected elements of a rule declaration their style. Properties are key-value pairs, and a rule declaration can contain one or more property declarations. Property declarations look like this:
+Son olarak, stillemede, ozellikler dedigimiz seyler, seciciyle tanimlanmis elemanlardaki stil tanimlamalaridir. Anahtar ve deger ikilileri olarak yazilirlar ve bir sinif birden fazla stil tanimlamasina sahip olabilir. Ozellik tanimlamalari asagidaki ornekte gorulerbilir:
 
 ```css
-/* some selector */ {
+/* herhangi bir secici */ {
   background: #f1f1f1;
   color: #333;
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ sayfa basina don](#table-of-contents)**
 
 ## CSS
 
@@ -203,7 +203,7 @@ Use `0` instead of `none` to specify that a style has no border.
   border: 0;
 }
 ```
-**[⬆ back to top](#table-of-contents)**
+**[⬆ sayfa basina don](#table-of-contents)**
 
 ## Sass
 
@@ -292,7 +292,7 @@ Again: **never nest ID selectors!**
 
 If you must use an ID selector in the first place (and you should really try not to), they should never be nested. If you find yourself doing this, you need to revisit your markup, or figure out why such strong specificity is needed. If you are writing well formed HTML and CSS, you should **never** need to do this.
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ sayfa basina don](#table-of-contents)**
 
 ## Translation
 
@@ -311,7 +311,7 @@ If you must use an ID selector in the first place (and you should really try not
   - ![vn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Vietnam.png) **Vietnamese**: [trungk18/css-style-guide](https://github.com/trungk18/css-style-guide)
   - ![vn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Italy.png) **Italian**: [antoniofull/linee-guida-css](https://github.com/antoniofull/linee-guida-css)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ sayfa basina don](#table-of-contents)**
 
 ## License
 
@@ -325,4 +325,4 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ sayfa basina don](#table-of-contents)**
