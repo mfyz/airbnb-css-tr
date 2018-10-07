@@ -1,8 +1,8 @@
-# Airbnb CSS / Sass Styleguide
+# Airbnb CSS / Sass stil rehberi
 
-*A mostly reasonable approach to CSS and Sass*
+*CSS ve Sass'a daha anlamli yaklasim*
 
-## Table of Contents
+## Icindekiler
 
 1. [Terminology](#terminology)
     - [Rule Declaration](#rule-declaration)
